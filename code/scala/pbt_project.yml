@@ -47,6 +47,17 @@ pipelines:
       inputs: []
       outputs: []
     dependencies: {}
+  pipelines/W1:
+    name: W1
+    description: Really solid info
+    author: roy.ledner@gmail.com
+    mode: batch
+    language: scala
+    createdAt: '2022-04-12 10:41:43'
+    datasets:
+      inputs: []
+      outputs: []
+    dependencies: {}
   workflows/Mary_Rath_MD:
     name: Mary_Rath_MD
     description: ''
@@ -81,5 +92,13 @@ pipelines:
       outputs: []
     dependencies: {}
 datasets: {}
-jobs: {}
+jobs:
+  jobs/Ms__Rolland_MoenHein_NoonKatelin_Bode:
+    name: Ms__Rolland_MoenHein_NoonKatelin_Bode
+    description: Really solid info
+    scheduler:
+      Nil: {}
+    schedulerJobUID: null
+    createdAt: '2022-04-12 10:41:44'
+    author: roy.ledner@gmail.com
 libraries: []
